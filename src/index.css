@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --custom-gray: #f4f5ed;
+}
+/* Custom animations */
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fadeInUp {
+  animation: fadeInUp 1s ease-in-out;
+}
